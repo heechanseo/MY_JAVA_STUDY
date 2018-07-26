@@ -2,9 +2,9 @@ package icehs.science.chapter06;
 
 public class Car {
 
-	String name = "ICE카";
-	int oilAmount;
-	double distance;
+	public String name = "ICE카";
+	public int oilAmount;
+	public double distance;
 	
 	//출발지와 목적지 그리고 거리를 받아서 계산하는 메서드
 	void driveCar(String start, String end, double driveDistance) { //얼마를 갔는지?
