@@ -1,4 +1,4 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Person {
 	private String name;
@@ -6,7 +6,8 @@ public class Person {
  
 	 public void eat() {
 		 System.out.println("밥을 먹어요.");
- }
+ }		
+	
 }
 
 class Student extends Person{
@@ -16,6 +17,11 @@ class Student extends Person{
 	public void study() {					//void 대신 int 쓸경우 부모와 자식이 달라 오류
 		System.out.println("프로그래밍 공부합니다.");
 	}
+	
+	//@Override
+	 //public void sleep() {
+	//System.out.println("잠을 잡니다.");
+	//}
 	@Override
 	public void eat( ) {//protected 쓸경우도 부모와 다르므로 오류
 		super.eat();
@@ -31,6 +37,11 @@ class Teacher extends Person{
 	
 	}
 	
+	//@Override
+	// public void sleep() {
+			//System.out.println("잠을 잡니다.");
+	
+	//}
 	@Override
 	public void eat(){
 		super.eat();

@@ -1,4 +1,4 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Account {
 	private String number;
@@ -12,6 +12,7 @@ public class Account {
 		this.name = name;
 		this.balance = balance;
 	}
+	
 	
 	public String getNumber() {
 		return number;
